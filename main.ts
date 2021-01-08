@@ -274,6 +274,7 @@ function 第一段 () {
     music.rest(music.beat(BeatFraction.Half))
 }
 let light2 = 0
+basic.pause(5000)
 music.setTempo(199)
 basic.forever(function () {
     light2 = input.lightLevel()
